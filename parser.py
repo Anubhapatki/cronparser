@@ -1,5 +1,8 @@
 def parse_string(string, type):
-    
+   """
+    Given a cron string parses it depending on the type.
+   """
+   # valid ranges for the different type 
    values = {
         'week': [i for i in range(1, 8)],
         'month': [i for i in range(1, 13)],
