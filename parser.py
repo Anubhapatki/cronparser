@@ -23,7 +23,7 @@ def parse_string(string, type):
    if '/' in string:
       return display_step_values(string, values[type],type)
 
-       
+   return string
    
 def display_range(string, type):
    start, stop = string.split('-')
