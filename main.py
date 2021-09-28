@@ -5,7 +5,6 @@ def cron_parser(cron_arg):
     """
     Given a cron string prints it out to describe the crontab.
     """
-    print (cron_arg)
     try:
         minute, hour, month_day, month, week_day, command = cron_arg.split(" ")
     except:
